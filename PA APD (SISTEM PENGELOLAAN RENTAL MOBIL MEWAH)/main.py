@@ -21,8 +21,8 @@ def main_loop():
             register_prompt()
         else:
             clear()
-            print(Fore.CYAN + "Terima kasih telah menggunakan program ini!" + Style.RESET_ALL)
-            input("Tekan Enter untuk keluar...")
+            print(Fore.CYAN + "Terima kasih telah menggunakan program rental mobil mahal ini!" + Style.RESET_ALL)
+            input("Tekan Enter untuk keluar dari program...")
             break
 
 if __name__ == "__main__":
