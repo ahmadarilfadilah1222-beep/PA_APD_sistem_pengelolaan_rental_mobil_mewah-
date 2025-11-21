@@ -30,5 +30,5 @@ def register_prompt():
     nama = input("Nama lengkap: ").strip()
     # simpan ke CSV & memory
     append_customer_to_csv(username, password, nama)
-    print(Fore.GREEN + "Registrasi berhasil! Data pelanggan tersimpan di customers.csv" + Style.RESET_ALL)
+    print(Fore.GREEN + "Registrasi berhasil! Data pelanggan tersimpan di customers" + Style.RESET_ALL)
     input("Enter...")
