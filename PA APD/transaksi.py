@@ -6,7 +6,6 @@ from utils import TRANSAKSI_CSV, fmt_dt, clear
 from colorama import Fore, Style
 
 def simpan_transaksi_csv(username, plat, tgl_sewa, batas, tgl_kembali, harga, denda):
-    # Kode kompatibilitas bila ada panggilan lama; gunakan append_transaksi_csv di utils.py
     from utils import append_transaksi_csv
     total_bayar = harga + (denda or 0)
     append_transaksi_csv(username, plat, "-", tgl_sewa, batas, tgl_kembali, harga, denda, total_bayar)

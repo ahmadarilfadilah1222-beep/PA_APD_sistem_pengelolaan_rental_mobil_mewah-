@@ -21,7 +21,7 @@ def login_prompt():
         username = input("Username (username di isi hanya berupa huruf saja): ").strip()
         password = input("Password (password di isi hanya berupa angka saja): ").strip()
 
-        # -------- Validation --------
+        # Validasi
         if not username:
             print(Fore.RED + "Username tidak boleh kosong!" + Style.RESET_ALL)
             input("Enter untuk ulang...")
