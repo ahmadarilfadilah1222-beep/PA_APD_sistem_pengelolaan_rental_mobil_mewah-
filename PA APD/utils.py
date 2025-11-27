@@ -45,7 +45,7 @@ def load_customers_from_csv():
             writer = csv.writer(f)
             writer.writerow(["username","password","nama","registered_at","role"])
             # default admin
-            writer.writerow(["admin","admin123","Administrator", datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "admin"])
+            writer.writerow(["admin","12345678","Administrator", datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "admin"])
     with open(CUSTOMER_CSV, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
