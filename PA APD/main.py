@@ -21,7 +21,7 @@ def main_loop():
             register_prompt()
         else:
             clear()
-            print(Fore.CYAN + "Terima kasih telah menggunakan program rental mobil mahal ini!" + Style.RESET_ALL)
+            print(Fore.CYAN + "Terima kasih telah menggunakan program rental mobil mahal ini!!" + Style.RESET_ALL)
             input("Tekan Enter untuk keluar dari program...")
             break
 

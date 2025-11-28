@@ -33,7 +33,7 @@ def tambah_mobil_admin():
 
 def update_mobil_admin():
     clear()
-    print(Fore.CYAN + "=== UPDATE MOBIL ===" + Style.RESET_ALL)
+    print(Fore.CYAN + "=== UPDATE MOBIL YANG INGIN DITAMBAHKAN ===" + Style.RESET_ALL)
     for plat, d in mobil_list.items():
         print(f"{plat} - {d['nama']} - Rp{d['harga']} - {d['status']}")
     plat = input("Plat yang diupdate: ").upper().strip()
